@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>André Diekmann · Web Developer</title>
+    <meta name="description" content="Full-Stack Web Developer aus dem Ruhrgebiet – klarer Code, klare Gestaltung." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Oswald:wght@400;600&display=swap" rel="stylesheet" />
+    <!-- Inter via Google Fonts (schnell & unkompliziert) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+<!-- Tailwind Play CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  // Deine Dark-Farben & Font
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          dark: "#0f1115",
+          light: "#f8f9fa",
+          accent: "#38bdf8"
+        },
+        fontFamily: {
+          sans: ["Inter", "sans-serif"]
+        }
+      }
+    }
+  }
+</script>
+
+  </head>
+  <body class="bg-dark text-light font-sans">
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
