@@ -5,4 +5,7 @@ export type Project = {
   tech: string[];
   repo?: string;
   demo?: string;
+  image?: string;
+  status?: "featured" | "wip" | "legacy";
+  year?: number;
 };
