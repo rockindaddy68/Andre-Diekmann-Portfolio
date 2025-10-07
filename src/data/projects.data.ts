@@ -2,6 +2,17 @@ import type { Project } from "../types/project";
 
 export const projects: Project[] = [
   {
+    id: "melting-pott",
+    title: "Melting Pott - Ruhrgebiet Events",
+    description: "Event-Platform für das Ruhrgebiet mit Eventbrite-Integration, mehrsprachiger Unterstützung, Admin-Dashboard und Wikipedia-Verlinkungen zu Städten.",
+    tech: ["React", "TypeScript", "Tailwind CSS", "Vite", "MongoDB", "Eventbrite API", "Git"],
+    repo: "https://github.com/rockindaddy68/Ruhrpott",
+    demo: "http://localhost:5173",
+    image: "/images/melting-pott.jpg",
+    status: "featured",
+    year: 2025,
+  },
+  {
     id: "ai-notes-summarizer",
     title: "AI Notes Summarizer",
     description: "Notizen zusammenfassen, Highlights extrahieren, Export.",
