@@ -48,8 +48,8 @@ export const projects: Project[] = [
     id: "portfolio-site",
     title: "Portfolio Website",
     description:
-      "Eigene Portfolio-Seite: Dark Theme, React/TS, Router, Tailwind. Deployment via GitHub Pages.",
-    tech: ["React", "TypeScript", "Tailwind", "Vite"],
+      "Moderne Portfolio-Website mit persönlichem Design. Features: Holografisches Foto-Integration, fließende Übergänge, einheitliche Farbpalette, responsive Design ohne Navbar für minimalistischen Look. Zeigt die Entwicklung vom ersten JS-Projekt bis zu Full-Stack-Anwendungen.",
+    tech: ["React", "TypeScript", "Tailwind CSS", "Vite", "React Router", "Git"],
     repo: "https://github.com/AndreDiekmannWebDev/Andre-Diekmann-Portfolio",
     // demo: "https://andrediekmannwebdev.github.io/Andre-Diekmann-Portfolio/",
     image: "/images/portfolio.jpg",
