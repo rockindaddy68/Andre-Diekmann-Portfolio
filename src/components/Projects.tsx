@@ -62,7 +62,7 @@ export default function Projects() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Demo
+                  More
                 </a>
               )}
               {p.repo && (
